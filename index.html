@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap"
+      rel="stylesheet"
+    />
+    <title>Youflix</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__img" src="./assets/logo.png" alt="Logo" />
+      <div class="header__menu">
+        <div class="header__menu__profile">
+          <img src="./assets/user-icon.png" alt="User" />
+          <p>Perfil</p>
+        </div>
+        <ul>
+          <li><a href="/">Cuenta</a></li>
+          <li><a href="/">Cerrar Sesión</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="search">
+        <h2 class="search__title">¿Qué quieres ver hoy?</h2>
+        <input class="input" type="text" placeholder="Buscar..." />
+      </section>
+
+      <div class="list">
+        <h2 class="categories-title">Mi lista</h2>
+
+        <section class="carousel">
+          <div class="carousel__container">
+            <div class="carousel-item">
+              <img
+                src="./assets/art-betmen_batman-dzhoker_joker-kino-muzhchiny-1327.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>The Dark Knight</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/aktery-arnold_shvarcenegger_arnold_schwarzenegger-kino-lyudi-muzhchiny-terminator_terminator-15738.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Terminator</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/elovek-pauk_spider_man-kino-lyudi-45537.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Spider Man</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/aktery-avto-forsazh_fast__furious-kino-lyudi-muzhchiny-ol_oker_paul_walker-9748.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Fast and Furious 2</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/1d7b14c4407fcdea5faadd6539a7cd9d.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Star Wars 3</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/00705788da03740d6f6e81b7470e2252.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Harry Potter</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/504b74daae19430390dc7dc9a93d916c.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Avengers</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/kino-prizrachnyj_gonschik_ghost_rider-4043.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Ghost Rider</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/kino-logotipy-upermen_superman-14469.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Superman</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="list">
+        <h2 class="categories-title">Tendencias</h2>
+        <section class="carousel">
+          <div class="carousel__container">
+            <div class="carousel-item">
+              <img
+                src="./assets/5836e34f14549fd8203194efd90ed9a8.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Star Wars Episode 3</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/8273424de2c319bb11c6269283e802e6.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Residen Evil</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/9707107e244ed1fb4d2702150a8f4c71.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Capitan America</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/44309be6e65a1a7d30ce50ae65769357.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Freddy Krueger</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/93a75c8e2f5e02f1ccb8cf433d612f0c.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Crepusculo</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/bf7d5e350178cc0c01b9c4f6f1ae4008.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Gladiator</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/1be725711b2e24356bdba1f7cfa4229b.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Underworld Evolution</p>
+                <p>2019 +16 60 minutos</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/079c9f68f56fde286b717ff708b748bc.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Piratas del Caribe</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/f590c3d99ee204fe638db9a5e5b6c4c5.jpeg"
+                alt="Image"
+                class="carousel-item__img"
+              />
+              <div class="carousel-item__details">
+                <div>
+                  <img src="./assets/play-icon.png" alt="Play" />
+                  <img src="./assets/plus-icon.png" alt="Add" />
+                </div>
+                <p>Hombres de Negro</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="/">Terminos de uso</a>
+      <a href="/">Declaracion de privacidad</a>
+      <a href="/">Centro de ayuda</a>
+    </footer>
+  </body>
+</html>
